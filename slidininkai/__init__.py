@@ -80,7 +80,7 @@ def pvz1():
   with open("Rezultatai.txt") as m:
     rez = m.read().split()
 # ŽINGSNIS 6.6.
-  ats = ["Zigmas Nosis 20 6 \n", "Jurgis Jurgutis 30 10 \n", "Petras A. Petraitis 30 10 \n", "Rytis Uosis Ainis 32 50 \n", "Romas Senasis 50 20 \n"]
+  ats = ["Zigmas", "Nosis", "20", "6", "Jurgis", "Jurgutis", "30", "10", "Petras", "A.", "Petraitis", "30", "10", "Rytis", "Uosis", "Ainis", "32", "50", "Romas", "Senasis", "50", "20"]
 # ŽINGSNIS 6.7.
   if ats == rez:
     pass
