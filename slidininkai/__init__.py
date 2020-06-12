@@ -32,7 +32,7 @@ def duomenuIsvedimas():
 def test0():
   """Duomenų įvedimo failo informacija surašyta teisingai."""
 # ŽINGSNIS 4.2.
-  ivestosEilutes = len(open(Duomenys.txt).readlines())
+  ivestosEilutes = len(open("Duomenys.txt").readlines())
 # ŽINGSNIS 4.3.
   pateiktosEilutes = 13
 # ŽINGSNIS 4.4.
@@ -48,7 +48,7 @@ def test1():
   """Duomenų išvedimo failo informacija surašyta teisingai."""
   check50.run("./slidininkai").exit(0)
 # ŽINGSNIS 5.2.
-  ivestosEilutes_Rez = len(open(Rezultatai.txt).readlines())
+  ivestosEilutes_Rez = len(open("Rezultatai.txt").readlines())
 # ŽINGSNIS 5.3.
   pateiktosEilutes_Rez = 5
 # ŽINGSNIS 5.4.
@@ -62,7 +62,7 @@ def test1():
 def pvz1():
   """Pateiktas pirmo pavyzdžio atsakymas yra pateiktas teisingai. Sveikinimai!"""
   check50.run("> Duomenys.txt").exit(0)
-  duomenys = open(Duomenys.txt, "w")
+  duomenys = open("Duomenys.txt", "w")
 # ŽINGSNIS 6.2.
   Duom = ["6 \n", "Petras A. Petraitis 15 20 00 \n", "Jurgis Jurgutis 16 12 12 \n", "Rimas Jonas 15 15 59 \n", "Zigmas Nosis 16 23 9 \n", "Romas Senasis 15 15 15 \n", "Rytis Uosis Ainis 16 23 9 \n", "5 \n", "Zigmas Nosis 16 43 15 \n" , "Petras A. Petraitis 15 50 10 \n", "Romas Senasis 16 5 35 \n", "Rytis Uosis Ainis 16 55 59 \n", "Jurgis Jurgutis 16 42 22 \n"]
 # ŽINGSNIS 6.3.
