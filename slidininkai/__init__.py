@@ -11,14 +11,14 @@ def pradiniaiFailai():
 
 # ŽINGSNIS 2.1.
 @check50.check(pradiniaiFailai)
-  def kompiliavimas():
+def kompiliavimas():
 # ŽINGSNIS 2.2.
     """slidininkai.cpp buvo sukompiliuotas sėkmingai!"""
     check50.run("g++     slidininkai.cpp  -lcrypt -lcs50 -lm -o slidininkai").exit(0) 
 
 # ŽINGSNIS 3.1.
 @check50.check(pradiniaiFailai)
-  def duomenuIvedimas():
+def duomenuIvedimas():
     """Duomenų įvedimo failas paruoštas sėkmingai!"""
     check50.exists("Duomenys.txt")
 # ŽINGSNIS 3.2.
@@ -28,8 +28,8 @@ def pradiniaiFailai():
      check50.exists("Rezultatai.txt")
 
 # ŽINGSNIS 4.1.
-  @check50.check(pradiniaiFailai)
-  def test0():
+@check50.check(pradiniaiFailai)
+def test0():
      """Duomenų įvedimo failo informacija surašyta teisingai."""
 # ŽINGSNIS 4.2.
     ivestosEilutes = len(open(Duomenys.txt).readlines())
