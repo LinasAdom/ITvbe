@@ -75,7 +75,7 @@ def pvz1():
   duomenys.writelines(Duom)
   duomenys.close()
 # ŽINGSNIS 6.4.
-  check50.run("./slidininkai").exit(0)
+  check50.run("./slidininkai")
 # ŽINGSNIS 6.5.
   with open("Rezultatai.txt") as m:
     rez = m.read().split()
