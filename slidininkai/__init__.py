@@ -39,8 +39,8 @@ def test0():
   if not ivestosEilutes:
     raise check50.Failure("Duomenų įvedime yra klaida. Patikrinkite Duomenys.txt")
 # ŽINGSNIS 4.5.
-  if ivestosEilutes != pateiktosEilutes:
-    raise check50.Failure("Duomenų įvedime yra klaida. Patikrinkite Duomenys.txt")
+  #if ivestosEilutes != pateiktosEilutes:
+   # raise check50.Failure("Duomenų įvedime yra klaida. Patikrinkite Duomenys.txt")
 
 # ŽINGSNIS 5.1.
 @check50.check(pradiniaiFailai)
