@@ -48,7 +48,7 @@ def test0():
 @check50.check(pradiniaiFailai)
 def test1():
   """Duomenų išvedimo failo informacija surašyta teisingai."""
-  check50.run("./slidininkai").exit(0)
+  check50.run("./slidininkai")
 # ŽINGSNIS 5.2.
   ivestosEilutes = len(open("Rezultatai.txt").readlines())
 # ŽINGSNIS 5.3.
