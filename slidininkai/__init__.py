@@ -42,27 +42,32 @@ def test0():
   if ivestosEilutes != pateiktosEilutes:
    raise check50.Failure("Duomenų įvedime yra klaida. Patikrinkite Duomenys.txt")
 
+
+
 # ŽINGSNIS 5.1.
 @check50.check(pradiniaiFailai)
 def test1():
   """Duomenų išvedimo failo informacija surašyta teisingai."""
   check50.run("./slidininkai").exit(0)
 # ŽINGSNIS 5.2.
-  ivestosEilutes_Rez = len(open("Rezultatai.txt").readlines())
+  ivestosEilutes = len(open("Rezultatai.txt").readlines())
 # ŽINGSNIS 5.3.
-  pateiktosEilutes_Rez = 5
+  pateiktosEilutes = 5
 # ŽINGSNIS 5.4.
-  if not ivestosEilutes_Rez:
+  if not ivestosEilutes:
     raise check50.Failure("Duomenų įvedime yra klaida. Patikrinkite Rezultatai.txt")
 # ŽINGSNIS 5.5.
-  if ivestosEilutes_Rez != pateiktosEilutes_Rez:
+  if ivestosEilutes != pateiktosEilutes:
     raise check50.Failure("Duomenų išvedime yra klaida. Patikrinkite Rezultatai.txt")
 # ŽINGSNIS 6.1.
+
+
+
 
 @check50.check(pradiniaiFailai)
 def pvz1():
   """Pateiktas pirmo pavyzdžio atsakymas yra pateiktas teisingai. Sveikinimai!"""
-  check50.run("> Duomenys.txt").exit(0)
+  #check50.run("> Duomenys.txt").exit(0)
   duomenys = open("Duomenys.txt", "w")
 # ŽINGSNIS 6.2.
   Duom = ["6 \n", "Petras A. Petraitis 15 20 00 \n", "Jurgis Jurgutis 16 12 12 \n", "Rimas Jonas 15 15 59 \n", "Zigmas Nosis 16 23 9 \n", "Romas Senasis 15 15 15 \n", "Rytis Uosis Ainis 16 23 9 \n", "5 \n", "Zigmas Nosis 16 43 15 \n" , "Petras A. Petraitis 15 50 10 \n", "Romas Senasis 16 5 35 \n", "Rytis Uosis Ainis 16 55 59 \n", "Jurgis Jurgutis 16 42 22 \n"]
@@ -70,7 +75,7 @@ def pvz1():
   duomenys.writelines(Duom)
   duomenys.close()
 # ŽINGSNIS 6.4.
-  check50.run("./slidininkai").exit(0)
+  #check50.run("./slidininkai").exit(0)
 # ŽINGSNIS 6.5.
   with open("Rezultatai.txt") as m:
     rez = m.read().split()
