@@ -13,9 +13,9 @@ __Pradiniai duomenys__
 Duomenys pateikiami tekstiniame faile Duomenys.txt. Visi skaičiai yra sveikieji.
 
 Duomenų faile įrašyta:
-- Pirmoje eilutėje užrašytas startuojančių slidininkų skaičius n (1  n  30).
+- Pirmoje eilutėje užrašytas startuojančių slidininkų skaičius n (1 ≤ n ≤ 30).
 - Tolesnėse n eilučių atsitiktine tvarka surašyti slidininkų starto duomenys. Kiekvieno slidininko duomenys užrašyti atskiroje eilutėje: pirmose 20 pozicijų yra simbolių eilutė, kurioje pateikta slidininką identifikuojanti informacija; po to starto laikas: valanda, minutė ir sekundė, atskirtos vienu tarpo simboliu.
-- Toliau užrašytas finišavusių slidininkų skaičius m (1  m  30).
+- Toliau užrašytas finišavusių slidininkų skaičius m (1 ≤ m ≤ 30).
 - Tolesnėse m eilučių surašyti slidininkų finišo duomenys. Kiekvieno slidininko duomenys užrašyti atskiroje eilutėje: pirmose 20 pozicijų yra simbolių eilutė, kurioje pateikta slidininką identifikuojanti informacija; po to finišo laikas: valanda, minutė ir sekundė, atskirtos vienu tarpo simboliu.
 
 __Rezultatai__
@@ -27,3 +27,9 @@ Rezultatus įrašykite tekstiniame faile Rezultatai.txt
 
 __Nurodymai__
 - Sukurkite ir parašykite funkciją, kuri surikiuoja rezultatus.
+
+__Duomenų ir rezultatų pavyzdžiai__
+![Duomenų ir rezultatų pavyzdys](duomenupavyzdys.png "Duomenų pavyzdys")
+
+__Programos vertinimas__
+![Programos vertinimas](vertinimas.png "Programos vertinimas")
