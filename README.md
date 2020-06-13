@@ -56,13 +56,13 @@ Kiekviena `check50` tikrinama programa turi savo unikalų ID, kuri identifikuoja
 
 - - -
 
-### Kaip suprasti ar teisingai, ar ne?
+### Teisingo ir neteisingo atsakymų pateikimai
 
-Kiekvienos programos teisingumas gali būti parodytas atsakymu. Pavyzdžiui taip gali atrodyti teisingo atsakymo vaizdavimas.
+Kiekvienos programos teisingumas gali būti parodytas atsakymą, kuri galima modifikuoti. Pavyzdys 👇, taip gali atrodyti teisingo atsakymo vaizdavimas.
 
 ![Teisingas Atsakymas](teisingai.png)
 
-O čia neteisingo:
+Neteisingo:
 
 ![Neteisingas Atsakymas](neteisingai.png)
 
@@ -119,7 +119,7 @@ Turite žinoti šiuos dalykus:
     4.  Paaiškinti, kaip saugiai ir teisėtai teikti įvairią informaciją viešojoje erdvėje.
     5.  Paaiškinti, kaip saugiai ir korektiškai bendrauti ir bendradarbiauti viešojoje erdvėje.
 4. Apibūdinti elektroninį parašą ir jo paskirtį.
-   1. Apibrėţti elektroninio parašo sąvoką ir nusakyti jo teisinę galią ir paskirtį.
+   1. Apibrėžti elektroninio parašo sąvoką ir nusakyti jo teisinę galią ir paskirtį.
    2. Pateikti elektroninio parašo naudojimo pavyzdžių.
 5. Naudotis elektroninėmis paslaugomis.
    1. Pateikti elektroninės valdžios, elektroninio verslo ir kitų šiuolaikinių elektroninių paslaugų pavyzdžių.
@@ -205,13 +205,13 @@ Failą pavadinkite:
 
       __init__.py
 
-Šį failą turite sukurti naudodami [Python](https://www.python.org/).
+Šį failą turite sukurti naudodami [Python](https://www.python.org/) programavimo kalbą.
 
 * * * 
 
-### VALIO! Gera pradžia ✨ Dabar pradėkime kurti unikalią programą skirta uždavinio sprendimui palengvinti.
+<h3> VALIO! Gera pradžia ✨ </h3> 
 
-Sukursime programą, kuri:
+Dabar pradėkime kurti unikalią programą skirta uždavinio sprendimui palengvinti, kuri:
 1. Patikrins ar yra visi reikalingi failai.
 2. Pažiūrės ar duomenų failai aprašyti teisingai.
 3. Užtrikrins, kad rezultatų faile yra išvesta teisinga informacija.
@@ -219,12 +219,13 @@ Sukursime programą, kuri:
 * * *
 ### SVARBI INFORMACIJA
 
-- Tarpai ir formatavimas yra labai svarbu.
-- Aplankale galite rasti pavyzdinius failus.
+- Tarpai ir formatavimas yra labai svarbu, todėl atkreipkite dėmesį į tai.
+- Šioje GitHub repozitorijoje galite rasti pavyzdinius failus.
+- Python failas yra aprašytas žingsnis pagal žingsnį, todėl viską lengvai rasite :)
 
 - - - 
   
-### 1.
+### Žingsnis #1
 
 Pirmiausia, importuokime *check50* aplinką.
 
@@ -236,7 +237,7 @@ Vykdykime *check* funkciją naudodami *check50* ir deklaruokime funkciją.
       def pradiniaiFailai():
       
 
-Jeigu nebus klaidų, išveskime tokį tekstą (kompiliatoriuje matysite tokią žinutę be kabučių):
+Jeigu nebus klaidų, išveskime tokį tekstą (kompiliatoriuje matysite tokią žinutę be kabučių, galite modifikuoti):
 
             """C++ failas yra sėkmingai sukurtas."""
             check50.exists("FAILO_PAVADINIMAS.cpp")
@@ -245,7 +246,8 @@ Jeigu nebus klaidų, išveskime tokį tekstą (kompiliatoriuje matysite tokią �
 
 ### 2.
 
-Keliaukime toliau! 🤓 Jeigu pirmoji funkcija pasitvirtino sėkmingai, tada galime patikrinti kompiliavimą. Atitinka *F9* CodeBlocks programoje.
+<p> Keliaukime toliau! 🤓 </p>
+Turėkite omeny, jog tai yra kita funkcija! `@check50.check(pradiniaiFailai)` atitinka *F9* CodeBlocks programoje.
 
       @check50.check(pradiniaiFailai)
       def kompiliavimas():
@@ -278,19 +280,24 @@ Na, dabar patikrinkime ar išvedimo failas irgi aprašytas gerai. ✔️
 
 ### 4.
 
-⚠️ DĖMESIO ⚠️ Nuo dabar turite atkreipti dėmesį į savo užduoties reikalavimus ir pagal juos pritaikyti programą.
+<p>DĖMESIO  ⚠️ </p>
 
-Pirma, aprašykime sėkmingo scenarijaus rezultatus.
+Nuo dabar turite atkreipti dėmesį į savo užduoties reikalavimus ir pagal juos pritaikyti programą.
+
+
+Pirma, aprašykime sėkmingo scenarijaus atsakymą.
 
       @check50.check(pradiniaiFailai)
       def test0():
          """Duomenų įvedimo failo informacija surašyta teisingai."""
 
-Pagal eilučių kiekį patikrinkime ar teisingai įvesti duomenys. Nustatome kiek eilučių turi failas:
+Pagal eilučių kiekį patikrinkime ar teisingai įvesti duomenys. Nustatome kiek eilučių dabar turi failas:
 
          ivestosEilutes = len(open(DUOMENŲ_ĮVEDIMO_FAILAS.txt).readlines())
          
-⚡ Įveskite unikalų eilučių skaičių (kiek yra pateikta užduotyje):
+<p>   ⚡   <br> </p>
+
+Įveskite unikalų eilučių skaičių (kiek yra pateikta užduotyje):
 
          pateiktosEilutes = 13
 
@@ -313,25 +320,27 @@ Taip pat patikrinkime ar išvedimo failas yra teisingai išvedamas.
       @check50.check(pradiniaiFailai)
       def test1():
          """Duomenų išvedimo failo informacija surašyta teisingai."""
-         check50.run("./slidininkai").exit(0)
+         check50.run("./slidininkai")
 
 Pagal eilučių kiekį patikrinkime ar teisingai įvesti duomenys. Nustatome kiek eilučių turi failas:
 
       ivestosEilutes = len(open(DUOMENŲ_IŠVEDIMO_FAILAS.txt).readlines())
 
-⚡ Įveskite unikalų eilučių skaičių (kiek yra pateikta užduotyje):
+<p> ⚡ <br> </p>
+
+Įveskite unikalų eilučių skaičių (kiek yra pateikta užduotyje):
 
       pateiktosEilutes = 5
 
 Tikriname ar faile išvis yra įvestų duomenų:
 
-         if not ivestosEilutes:
-            raise check50.Failure("Duomenų įvedime yra klaida. Patikrinkite DUOMENŲ_IŠVEDIMO_FAILAS.txt")
+      if not ivestosEilutes:
+         raise check50.Failure("Duomenų įvedime yra klaida. Patikrinkite DUOMENŲ_IŠVEDIMO_FAILAS.txt")
 
 Tikriname ar moksleivio pateiktas eilučių kiekis sutampa su egzamino užduoties pateiktu eilučių kiekiu:
 
-         if ivestosEilutes != pateiktosEilutes:
-            raise check50.Failure("Duomenų išvedime yra klaida. Patikrinkite DUOMENŲ_IŠVEDIMO_FAILAS.txt")
+      if ivestosEilutes != pateiktosEilutes:
+         raise check50.Failure("Duomenų išvedime yra klaida. Patikrinkite DUOMENŲ_IŠVEDIMO_FAILAS.txt")
 
 * * *
 
@@ -347,7 +356,8 @@ Aprašykime sėkmingo scenarijaus rezultatą, ištrinkime duomenų įvedimo fail
          check50.run("> DUOMENŲ_ĮVEDIMO_FAILAS.txt")
          duomenys = open(DUOMENŲ_ĮVEDIMO_FAILAS.txt, "w")
 
-⚡ Aprašykime sėkmingų įvestų pirminių duomenų informaciją (kaip pateikta užduotyje):
+<p> ⚡ </p> <br> 
+Aprašykime sėkmingų įvestų pirminių duomenų informaciją (kaip pateikta užduotyje):
 
       Duom = ["6 \n", "Petras A. Petraitis 15 20 00 \n", "Jurgis Jurgutis 16 12 12 \n", "Rimas Jonas 15 15 59 \n", "Zigmas Nosis 16 23 9 \n", "Romas Senasis 15 15 15 \n", "Rytis Uosis Ainis 16 23 9 \n", "5 \n", "Zigmas Nosis 16 43 15 \n" , "Petras A. Petraitis 15 50 10 \n", "Romas Senasis 16 5 35 \n", "Rytis Uosis Ainis 16 55 59 \n", "Jurgis Jurgutis 16 42 22 \n"]
       
@@ -380,21 +390,7 @@ Tikriname ar teisingi rezultatai.
 
 ### Kaip aprašyti užduotį?
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-### Galimybės
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-# Kaip galiu prisidėti prie projekto?
-
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-# Markdown
-
-### Kas yra *Markdown*?
-
-Markdown failai yra tekstiniai tekstiniai failai, kuriuose gali būti teksto teksto simboliai (pvz., Pavadinimai, paryškinti, lentelės). MD failus dažnai naudoja ir versijų valdymo sistemos, pvz., „GitHub“ (pvz., „README.md“).
+Sukurkite `README.md` failą. Naudodami [Markdown](https://www.markdownguide.org/cheat-sheet/) galite aprašyti užduotį.  
 
 * * *
 ### Kaip naudoti *Markdown*?
@@ -407,7 +403,6 @@ Markdown failai yra tekstiniai tekstiniai failai, kuriuose gali būti teksto tek
    2. [PDF į Markdown](https://pdf2md.morethan.io/)  
 
 * * *
-
 ### Markdown kodas
 
 [Daugiau informacijos](https://www.markdownguide.org/cheat-sheet/)
@@ -452,3 +447,18 @@ Nuoroda
 Nuotrauka
 
       ![alt tekstas](nuoroda)
+
+### Galimybės
+
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+# Kaip galiu prisidėti prie projekto?
+
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+# Markdown
+
+### Kas yra *Markdown*?
+
+Markdown failai yra tekstiniai tekstiniai failai, kuriuose gali būti teksto teksto simboliai (pvz., Pavadinimai, paryškinti, lentelės). MD failus dažnai naudoja ir versijų valdymo sistemos, pvz., „GitHub“ (pvz., „README.md“).
+
