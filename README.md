@@ -16,23 +16,24 @@
 
 # Pamokos tvarkarašis 
 
-1. [Check50 dokumentacija](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#cs50-dokumentacija)
+1. [Check50 dokumentacija](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#check50-dokumentacija)
    
-   1. [Pritaikomumas ir galimybės]()
-   2. [Komandos]()
+   1. [Check50](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kas-yra-check50)
+   2. [Komandos](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#komandos)
    
-2. [IT valstybinis brandos egzaminas]()
+2. [IT valstybinis brandos egzaminas](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#it-valstybinis-brandos-egzaminas)
    
-   1. [Egzamino struktūra ir vertinimas.]()
-   2. [Egzaminui reikalinga informacija ir programos.]()
-   3. [Kaip pasiruošti pirmąjai daliai?]()
-   4. [Kaip pasiruošti antrąjai daliai?]() 
+   1. [Egzamino struktūra ir vertinimas.](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#egzamino-strukt%C5%ABra-ir-vertinimas)
+   2. [Kaip pasiruošti pirmąjai daliai?](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kaip-pasiruo%C5%A1ti-pirm%C4%85jai-daliai)
+   3. [Kaip pasiruošti antrąjai daliai?](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kaip-pasiruo%C5%A1ti-antr%C4%85jai-daliai)
+   4. [Kaip pasiruošti trečiąjai daliai?]()
+   5. [Kaip pasiruošti ketvirtąjai daliai?]()
 
-3. [Užduoties sukūrimas.]()
+3. [Užduoties sukūrimas.](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#u%C5%BEduoties-suk%C5%ABrimas)
    
-   1. [Nuo ko pradėti?]()
-   2. [Kaip aprašyti užduotį?]()
-   3. [Galimybės]()
+   1. [C++ failas](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#sukurkite-c-fail%C4%85)
+   2. [.cs50.yaml failas](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#sukurkite-cs50yaml-fail%C4%85)
+   3. [Duomenų failai]()
 
 4. [Kaip galiu prisidėti prie projekto?](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kaip-galiu-prisid%C4%97ti-prie-projekto)
 
@@ -184,7 +185,7 @@ Pridėkime tai, kas bus reikalinga Check50 sistemai:
 
 * * *
 
-### Sukurkime duomenų įvedimo failą.
+### Sukurkime duomenų įvedimo ir išvedimo failus.
 
   1. Sukurti reikia paspaudus *Create new file* jūsų projekto aplinkoje.
   2. Įveskite duomenų failo pavadinimą *Name your file...* laukelyje.
@@ -192,9 +193,7 @@ Pridėkime tai, kas bus reikalinga Check50 sistemai:
          DUOMENŲ_ĮVEDIMO_FAILAS.txt
    3. Paspauskite apačioje žalią mygtuką *Commit new file*.
 
-* * *
-
-### Visiškai taip pat, kaip duomenų įvedimo failą, taip sukurkite ir išvedimo failą.
+Visiškai taip pat, kaip duomenų įvedimo failą, taip sukurkite ir išvedimo failą.
    
          DUOMENŲ_IŠVEDIMO_FAILAS.txt
 
