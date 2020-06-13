@@ -372,7 +372,7 @@ Atidarome rezultatų failą ir įrašome į masyvą *rez*:
       with open("Rezultatai.txt") as m:
          rez = m.read().split()
 
-⚡ Aprašykime sėkmingų galutinių duomenų informaciją (kaip pateikta užduotyje):
+Aprašykime sėkmingų galutinių duomenų informaciją (kaip pateikta užduotyje):
 
       ats = ["Zigmas", "Nosis", "20", "6", "Jurgis", "Jurgutis", "30", "10", "Petras", "A.", "Petraitis", "30", "10", "Rytis", "Uosis", "Ainis", "32", "50", "Romas", "Senasis", "50", "20"]
 
