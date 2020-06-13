@@ -473,4 +473,4 @@ Arnas Puidokas:
 - [Medium](https://medium.com/@arnaspuidokas)
 - [Twitter](https://twitter.com/arnaspdk)
 
-✌️🦄
+✌️
