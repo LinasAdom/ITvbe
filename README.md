@@ -458,7 +458,7 @@ Nuotrauka
 Idėjų pritaikymas gali būti įvairus, bet manau, kad galima tikrai naudoti IT pamokose mokykloje, universitetuose, taip palengvinant moksleivių mokimasį ir padarant jį įdomesnį.
 
 Daugiau informacijos:
-   - [CS50’s New Submission Tools for Teachers and Students](CS50’s New Submission Tools for Teachers and Students)
+   - [CS50’s New Submission Tools for Teachers and Students](https://medium.com/@cs50/cs50s-new-submission-tools-for-teachers-and-students-e18f357076f7)
    
 # Kaip galiu prisidėti prie projekto?
 
@@ -472,3 +472,5 @@ Arnas Puidokas:
 - [Linkedin](https://www.linkedin.com/in/arnaspuidokas/)
 - [Medium](https://medium.com/@arnaspuidokas)
 - [Twitter](https://twitter.com/arnaspdk)
+
+✌️🦄
