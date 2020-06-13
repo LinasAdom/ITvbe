@@ -1,5 +1,6 @@
 # IT VBE + CS50
-Labas! Aš esu [Arnas](https://www.linkedin.com/in/arnaspuidokas) 👋   Žemiau rasite pamoką apie tai, kaip galite pritaikyti GitHub, CS50 į IT egzamino pasiruošimą. 💻
+<p> Labas! Aš esu <a href="https://www.linkedin.com/in/arnaspuidokas">Arnas</a>👋</p> 
+<p> Žemiau rasite pamoką apie tai, kaip galite pritaikyti GitHub, CS50 į IT egzamino pasiruošimą. 💻 </p>
 
 * <a href="https://nec.lt/failai/7417_IT-VBE-1_2018-GALUTINE.pdf" target="_blank">Pamokoje naudojama IT egzamino užduotis 🖥️</a>
 
