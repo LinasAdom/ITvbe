@@ -27,3 +27,9 @@ Rezultatus įrašykite tekstiniame faile Rezultatai.txt
 
 __Nurodymai__
 - Sukurkite ir parašykite funkciją, kuri surikiuoja rezultatus.
+
+__Duomenų ir rezultatų pavyzdžiai__
+![Duomenų ir rezultatų pavyzdys](duomenupavyzdys.png "Duomenų pavyzdys")
+
+__Programos vertinimas__
+![Programos vertinimas](vertinimas.png "Programos vertinimas")
