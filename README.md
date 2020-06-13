@@ -1,5 +1,5 @@
 # IT VBE + CS50
-<p> Labas! Aš esu <a href="https://www.linkedin.com/in/arnaspuidokas">Arnas</a>👋</p> 
+<p> Labas! Aš esu <a href="https://www.linkedin.com/in/arnaspuidokas">Arnas</a>👋</p>
 <p> Žemiau rasite pamoką apie tai, kaip galite pritaikyti GitHub, CS50 į IT egzamino pasiruošimą. 💻 </p>
 
 * <a href="https://nec.lt/failai/7417_IT-VBE-1_2018-GALUTINE.pdf" target="_blank">Pamokoje naudojama IT egzamino užduotis 🖥️</a>
@@ -14,15 +14,15 @@
 
 * [Mano sukurta video pamoka](youtube.com) 📹
 
-# Pamokos tvarkarašis 
+# Pamokos tvarkarašis
 
 1. [Check50 dokumentacija](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#check50-dokumentacija)
-   
+
    1. [Check50](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kas-yra-check50)
    2. [Komandos](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#komandos)
-   
+
 2. [IT valstybinis brandos egzaminas](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#it-valstybinis-brandos-egzaminas)
-   
+
    1. [Egzamino struktūra ir vertinimas.](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#egzamino-strukt%C5%ABra-ir-vertinimas)
    2. [Kaip pasiruošti pirmąjai daliai?](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kaip-pasiruo%C5%A1ti-pirm%C4%85jai-daliai)
    3. [Kaip pasiruošti antrąjai daliai?](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kaip-pasiruo%C5%A1ti-antr%C4%85jai-daliai)
@@ -30,7 +30,7 @@
    5. [Kaip pasiruošti ketvirtąjai daliai?]()
 
 3. [Užduoties sukūrimas.](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#u%C5%BEduoties-suk%C5%ABrimas)
-   
+
    1. [C++ failas](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#sukurkite-c-fail%C4%85)
    2. [.cs50.yaml failas](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#sukurkite-cs50yaml-fail%C4%85)
    3. [Duomenų failai]()
@@ -38,13 +38,13 @@
 4. [Kaip galiu prisidėti prie projekto?](https://github.com/arnasp13/IT_vbe/tree/master/Slidininkai#kaip-galiu-prisid%C4%97ti-prie-projekto)
 
 5. [Markdown](https://en.wikipedia.org/wiki/Markdown)
-   
+
    1. Kas yra *Markdown*?
-   2. Kaip naudoti *Markdown*? 
+   2. Kaip naudoti *Markdown*?
 
 # Check50 dokumentacija
 
-### Kas yra *check50*? 
+### Kas yra *check50*?
 
 `check50` yra komandų aplinka įdiegta, kuria naudodamiesi galite patikrinti programos teisingumą.
 
@@ -52,21 +52,21 @@ Moksleivis pateikęs tokią komandą (pavyzdys) gaus rezultatus.
 
       check50 arnaspdk/ITvbe/programavimas/slidininkai
 
-`submit50` yra CS50 įrankis skirtas problemų sprendimų pateikimui. 
+`submit50` yra CS50 įrankis skirtas problemų sprendimų pateikimui.
 
 ### Programos ID
 
-Kiekviena `check50` tikrinama programa turi savo unikalų ID, kuri identifikuoja programą. 
+Kiekviena `check50` tikrinama programa turi savo unikalų ID, kuri identifikuoja programą.
 
 ### Teisingo ir neteisingo atsakymų pateikimai
 
 Kiekvienos programos teisingumas gali būti parodytas atsakymą, kuri galima modifikuoti. Pavyzdys 👇, taip gali atrodyti teisingo atsakymo vaizdavimas.
 
-![Teisingas Atsakymas](teisingai.png)
+![Teisingas Atsakymas](Nuotraukos/teisingai.png)
 
 Neteisingo:
 
-![Neteisingas Atsakymas](neteisingai.png)
+![Neteisingas Atsakymas](Nuotraukos/neteisingai.png)
 
 ### Komandos
 
@@ -98,7 +98,7 @@ Neteisingo:
 2. [MS Office]()
 
 - - -
-  
+
 ### Kaip pasiruošti pirmąjai daliai?
 
 Turite žinoti šiuos dalykus:
@@ -126,7 +126,7 @@ Turite žinoti šiuos dalykus:
    2. Paaiškinti, kaip naudotis pasirinktomis elektroninėmis paslaugomis.
 
 * * *
-  
+
 ### Kaip pasiruošti antrąjai daliai?
 
 1. Sudaryti kelių lygių ţenklintus ir / ar numeruotus sąrašus, juos tvarkyti.
@@ -139,14 +139,14 @@ Turite žinoti šiuos dalykus:
 
 # Užduoties sukūrimas
 
-### Sukurkite *C++* failą. 
+### Sukurkite *C++* failą.
 
 Pirmiausia aprašome bibliotekas:
 
       #include <fstream>
       #include <iomanip>
       #include <iostream>
-  
+
 Bibliotekų paaiškinimai:
    1. [fstream](http://www.cplusplus.com/reference/fstream/fstream/)
    2. [iomanip](http://www.cplusplus.com/reference/iomanip/?kw=iomanip)
@@ -173,7 +173,7 @@ Deklaruokime tai, kas bus reikalinga LAB50 aplinkoje:
             - !include "FAILO_PAVADINIMAS.cpp"
             - !include "DUOMENŲ_ĮVEDIMO_FAILAS.txt"
             - !include "DUOMENŲ_IŠVEDIMO_FAILAS.txt"
-      
+
 Pridėkime tai, kas bus reikalinga Check50 sistemai:
 
       check50:
@@ -194,7 +194,7 @@ Pridėkime tai, kas bus reikalinga Check50 sistemai:
    3. Paspauskite apačioje žalią mygtuką *Commit new file*.
 
 Visiškai taip pat, kaip duomenų įvedimo failą, taip sukurkite ir išvedimo failą.
-   
+
          DUOMENŲ_IŠVEDIMO_FAILAS.txt
 
 * * *
@@ -209,23 +209,23 @@ Visiškai taip pat, kaip duomenų įvedimo failą, taip sukurkite ir išvedimo f
 
 ### Sukurkite Python failą.
 
-Failą pavadinkite: 
+Failą pavadinkite:
 
       __init__.py
 
 Šį failą turite sukurti naudodami [Python](https://www.python.org/) programavimo kalbą.
 
-* * * 
+* * *
 
-<h3> VALIO! Gera pradžia ✨ </h3> 
+<h3> VALIO! Gera pradžia ✨ </h3>
 
 Dabar pradėkime kurti unikalią programą skirta uždavinio sprendimui palengvinti, kuri:
 1. Patikrins ar yra visi reikalingi failai.
 2. Pažiūrės ar duomenų failai aprašyti teisingai.
 3. Užtrikrins, kad rezultatų faile yra išvesta teisinga informacija.
 
-- - - 
-  
+- - -
+
 ### Žingsnis #1
 
 Pirmiausia, importuokime *check50* aplinką.
@@ -236,7 +236,7 @@ Vykdykime *check* funkciją naudodami *check50* ir deklaruokime funkciją.
 
       @check50.check()
       def pradiniaiFailai():
-      
+
 
 Jeigu nebus klaidų, išveskime tokį tekstą (kompiliatoriuje matysite tokią žinutę be kabučių, galite modifikuoti):
 
@@ -256,7 +256,7 @@ Turėkite omeny, jog tai yra kita funkcija! `@check50.check(pradiniaiFailai)` at
 Toliau vėl išveskime žinutę, kurioje aprašysime atsakymą 👌
 
             """FAILO_PAVADINIMAS.cpp buvo sukompiliuotas sėkmingai!"""
-            check50.run("g++     FAILO_PAVADINIMAS.cpp  -lcrypt -lcs50 -lm -o FAILO_PAVADINIMAS").exit(0) 
+            check50.run("g++     FAILO_PAVADINIMAS.cpp  -lcrypt -lcs50 -lm -o FAILO_PAVADINIMAS").exit(0)
 
 
 * * *
@@ -295,7 +295,7 @@ Pirma, aprašykime sėkmingo scenarijaus atsakymą.
 Pagal eilučių kiekį patikrinkime ar teisingai įvesti duomenys. Nustatome kiek eilučių dabar turi failas:
 
          ivestosEilutes = len(open(DUOMENŲ_ĮVEDIMO_FAILAS.txt).readlines())
-         
+
 <p>⚡</p>
 
 Įveskite unikalų eilučių skaičių (kiek yra pateikta užduotyje):
@@ -358,14 +358,14 @@ Aprašykime sėkmingo scenarijaus rezultatą, ištrinkime duomenų įvedimo fail
 Aprašykime sėkmingų įvestų pirminių duomenų informaciją (kaip pateikta užduotyje):
 
       Duom = ["6 \n", "Petras A. Petraitis 15 20 00 \n", "Jurgis Jurgutis 16 12 12 \n", "Rimas Jonas 15 15 59 \n", "Zigmas Nosis 16 23 9 \n", "Romas Senasis 15 15 15 \n", "Rytis Uosis Ainis 16 23 9 \n", "5 \n", "Zigmas Nosis 16 43 15 \n" , "Petras A. Petraitis 15 50 10 \n", "Romas Senasis 16 5 35 \n", "Rytis Uosis Ainis 16 55 59 \n", "Jurgis Jurgutis 16 42 22 \n"]
-      
+
 Įrašome į duomenų failą:
 
       duomenys.writelines(Duom)
       duomenys.close()
 
 Paleidžiame programą:
-      
+
       check50.run("./slidininkai")
 
 Atidarome rezultatų failą ir įrašome į masyvą *rez*:
@@ -401,7 +401,7 @@ Sukurkite `README.md` failą. Naudodami [Markdown](https://www.markdownguide.org
 1. Susikurti *Markdown* failą naudojant teksto redagavimo aplinką (pvz.: Notepad) arba tam skirtą Markdown programą (pvz.: Markable).
 2. Atidarykite *Markdown* failą.
 3. Rašykite Markdown kodą arba konvertuokite HTML kodą / PDF failą į Markdown failą.
-      
+
    1. [HTML į Markdown](https://www.browserling.com/tools/html-to-markdown)
    2. [PDF į Markdown](https://pdf2md.morethan.io/)  
 
@@ -411,14 +411,14 @@ Sukurkite `README.md` failą. Naudodami [Markdown](https://www.markdownguide.org
 
 [Daugiau informacijos](https://www.markdownguide.org/cheat-sheet/)
 
-Pavadinimai 
+Pavadinimai
 
       # H1
       ## H2
       ### H3
-      
+
 Paryškinimas/pakreiptas
-      
+
       ** paryškintas tekstas **
       * pakreiptas tekstas *
 
@@ -444,7 +444,7 @@ Kodas
 
 Horizantali linija
 
-      - - - 
+      - - -
 
 Nuoroda
 
@@ -462,7 +462,7 @@ Idėjų pritaikymas gali būti įvairus, bet manau, kad galima tikrai naudoti IT
 
 Daugiau informacijos apie pritaikymą:
    - [CS50’s New Submission Tools for Teachers and Students](https://medium.com/@cs50/cs50s-new-submission-tools-for-teachers-and-students-e18f357076f7)
-   
+
 # Kaip galiu prisidėti prie projekto?
 
 Šis projektas yra [Open-Source](https://lt.wikipedia.org/wiki/Atvirojo_kodo_programa), todėl tikrai galite prisidėti, pvz.: IT problemų sprendimais.
