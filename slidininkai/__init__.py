@@ -21,6 +21,7 @@ def kompiliavimas():
 def duomenuIvedimas():
     """Duomenų įvedimo failas paruoštas sėkmingai!"""
     check50.exists("Duomenys.txt")
+    
 # ŽINGSNIS 3.2.
 @check50.check(pradiniaiFailai)
 def duomenuIsvedimas():
@@ -59,11 +60,8 @@ def test1():
 # ŽINGSNIS 5.5.
   if ivestosEilutes != pateiktosEilutes:
     raise check50.Failure("Duomenų išvedime yra klaida. Patikrinkite Rezultatai.txt")
+
 # ŽINGSNIS 6.1.
-
-
-
-
 @check50.check(pradiniaiFailai)
 def pvz1():
   """Pateiktas pirmo pavyzdžio atsakymas yra pateiktas teisingai. Sveikinimai!"""
