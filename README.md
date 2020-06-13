@@ -326,8 +326,6 @@ Pagal eilučių kiekį patikrinkime ar teisingai įvesti duomenys. Nustatome kie
 
       ivestosEilutes = len(open(DUOMENŲ_IŠVEDIMO_FAILAS.txt).readlines())
 
-<p> ⚡ <br> </p>
-
 Įveskite unikalų eilučių skaičių (kiek yra pateikta užduotyje):
 
       pateiktosEilutes = 5
@@ -356,7 +354,6 @@ Aprašykime sėkmingo scenarijaus rezultatą, ištrinkime duomenų įvedimo fail
          check50.run("> DUOMENŲ_ĮVEDIMO_FAILAS.txt")
          duomenys = open(DUOMENŲ_ĮVEDIMO_FAILAS.txt, "w")
 
-<p> ⚡ </p> <br> 
 Aprašykime sėkmingų įvestų pirminių duomenų informaciją (kaip pateikta užduotyje):
 
       Duom = ["6 \n", "Petras A. Petraitis 15 20 00 \n", "Jurgis Jurgutis 16 12 12 \n", "Rimas Jonas 15 15 59 \n", "Zigmas Nosis 16 23 9 \n", "Romas Senasis 15 15 15 \n", "Rytis Uosis Ainis 16 23 9 \n", "5 \n", "Zigmas Nosis 16 43 15 \n" , "Petras A. Petraitis 15 50 10 \n", "Romas Senasis 16 5 35 \n", "Rytis Uosis Ainis 16 55 59 \n", "Jurgis Jurgutis 16 42 22 \n"]
@@ -388,19 +385,15 @@ Tikriname ar teisingi rezultatai.
 
 * * *
 
-### Kaip aprašyti užduotį?
-
-Sukurkite `README.md` failą. Naudodami [Markdown](https://www.markdownguide.org/cheat-sheet/) galite aprašyti užduotį.  
-
-* * *
-
 # Markdown
 
 ### Kas yra *Markdown*?
 
 Markdown failai yra tekstiniai tekstiniai failai, kuriuose gali būti teksto teksto simboliai (pvz., Pavadinimai, paryškinti, lentelės). MD failus dažnai naudoja ir versijų valdymo sistemos, pvz., „GitHub“ (pvz., „README.md“).
 
-* * *
+### Kaip aprašyti užduotį?
+
+Sukurkite `README.md` failą. Naudodami [Markdown](https://www.markdownguide.org/cheat-sheet/) galite aprašyti užduotį.  
 
 ### Kaip naudoti *Markdown*?
 
@@ -417,7 +410,7 @@ Markdown failai yra tekstiniai tekstiniai failai, kuriuose gali būti teksto tek
 
 [Daugiau informacijos](https://www.markdownguide.org/cheat-sheet/)
 
-Heading 
+Pavadinimai 
 
       # H1
       ## H2
@@ -458,7 +451,9 @@ Nuotrauka
 
       ![alt tekstas](nuoroda)
 
-### Galimybės
+* * *
+
+# Galimybės
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
