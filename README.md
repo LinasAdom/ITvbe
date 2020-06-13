@@ -152,7 +152,7 @@ Bibliotekų paaiškinimai:
    2. [iomanip](http://www.cplusplus.com/reference/iomanip/?kw=iomanip)
    3. [iostream](http://www.cplusplus.com/reference/istream/iostream/?kw=iostream)
 
-   Aprašome kodo pradžią:
+Aprašome kodo pradžią:
 
       int main()
       {  
@@ -185,7 +185,7 @@ Pridėkime tai, kas bus reikalinga Check50 sistemai:
 
 * * *
 
-### Sukurkime duomenų įvedimo ir išvedimo failus.
+### Sukurkime duomenų įvedimo ir išvedimo failus:
 
   1. Sukurti reikia paspaudus *Create new file* jūsų projekto aplinkoje.
   2. Įveskite duomenų failo pavadinimą *Name your file...* laukelyje.
@@ -196,6 +196,14 @@ Pridėkime tai, kas bus reikalinga Check50 sistemai:
 Visiškai taip pat, kaip duomenų įvedimo failą, taip sukurkite ir išvedimo failą.
    
          DUOMENŲ_IŠVEDIMO_FAILAS.txt
+
+* * *
+
+### SVARBI INFORMACIJA
+
+- Tarpai ir formatavimas yra labai svarbu, todėl atkreipkite dėmesį į tai.
+- Šioje GitHub repozitorijoje galite rasti pavyzdinius failus.
+- Python failas yra aprašytas žingsnis pagal žingsnį, todėl viską lengvai rasite :)
 
 * * *
 
@@ -215,13 +223,6 @@ Dabar pradėkime kurti unikalią programą skirta uždavinio sprendimui palengvi
 1. Patikrins ar yra visi reikalingi failai.
 2. Pažiūrės ar duomenų failai aprašyti teisingai.
 3. Užtrikrins, kad rezultatų faile yra išvesta teisinga informacija.
-
-* * *
-### SVARBI INFORMACIJA
-
-- Tarpai ir formatavimas yra labai svarbu, todėl atkreipkite dėmesį į tai.
-- Šioje GitHub repozitorijoje galite rasti pavyzdinius failus.
-- Python failas yra aprašytas žingsnis pagal žingsnį, todėl viską lengvai rasite :)
 
 - - - 
   
@@ -415,13 +416,15 @@ Pavadinimai
       # H1
       ## H2
       ### H3
-Bold/Italic
       
-      ** bold text **
-      * italic *
-Blockquote
+Paryškinimas/pakreiptas
+      
+      ** paryškintas tekstas **
+      * pakreiptas tekstas *
 
-      > blockquote
+Citavimas
+
+      > citavimas
 
 Numeruotas sąrašas
 
@@ -457,20 +460,23 @@ Nuotrauka
 
 Idėjų pritaikymas gali būti įvairus, bet manau, kad galima tikrai naudoti IT pamokose mokykloje, universitetuose, taip palengvinant moksleivių mokimasį ir padarant jį įdomesnį.
 
-Daugiau informacijos:
+Daugiau informacijos apie pritaikymą:
    - [CS50’s New Submission Tools for Teachers and Students](https://medium.com/@cs50/cs50s-new-submission-tools-for-teachers-and-students-e18f357076f7)
    
 # Kaip galiu prisidėti prie projekto?
 
 Šis projektas yra [Open-Source](https://lt.wikipedia.org/wiki/Atvirojo_kodo_programa), todėl tikrai galite prisidėti, pvz.: IT problemų sprendimais.
 
+Jeigu turite idėjų, kaip galėčiau projektą patobulinti arba pritaikyti, tai lauksiu žinutės 👌
+
 # Kontaktai
 
-Arnas Puidokas:
+Arnas Puidokas
 - [Facebook](https://www.facebook.com/arnas.puidokas10)
 - [Instagram](https://instagram.com/arnaspdk)
 - [Linkedin](https://www.linkedin.com/in/arnaspuidokas/)
 - [Medium](https://medium.com/@arnaspuidokas)
 - [Twitter](https://twitter.com/arnaspdk)
+- [Email](mailto:puidokasarnas11@gmail.com)
 
 ✌️
