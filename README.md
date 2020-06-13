@@ -44,17 +44,19 @@
 
 # Check50 dokumentacija
 
-### Kas yra *Check50*? 
+### Kas yra *check50*? 
 
 `check50` yra komandų aplinka įdiegta, kuria naudodamiesi galite patikrinti programos teisingumą.
 
-- - -
+Moksleivis pateikęs tokią komandą (pavyzdys) gaus rezultatus.
+
+      check50 arnaspdk/ITvbe/programavimas/slidininkai
+
+`submit50` yra CS50 įrankis skirtas problemų sprendimų pateikimui. 
 
 ### Programos ID
 
 Kiekviena `check50` tikrinama programa turi savo unikalų ID, kuri identifikuoja programą. 
-
-- - -
 
 ### Teisingo ir neteisingo atsakymų pateikimai
 
@@ -66,11 +68,9 @@ Neteisingo:
 
 ![Neteisingas Atsakymas](neteisingai.png)
 
-- - -
-
 ### Komandos
 
-    check50
+      check50
 
 [*check50*](https://cs50.readthedocs.io/projects/check50/en/latest/) yra įrankis, kuriuo besimokantis gali patikrinti savo kodą.
 
@@ -455,10 +455,20 @@ Nuotrauka
 
 # Galimybės
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Idėjų pritaikymas gali būti įvairus, bet manau, kad galima tikrai naudoti IT pamokose mokykloje, universitetuose, taip palengvinant moksleivių mokimasį ir padarant jį įdomesnį.
 
+Daugiau informacijos:
+   - [CS50’s New Submission Tools for Teachers and Students](CS50’s New Submission Tools for Teachers and Students)
+   
 # Kaip galiu prisidėti prie projekto?
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Šis projektas yra [Open-Source](https://lt.wikipedia.org/wiki/Atvirojo_kodo_programa), todėl tikrai galite prisidėti, pvz.: IT problemų sprendimais.
 
+# Kontaktai
 
+Arnas Puidokas:
+- [Facebook](https://www.facebook.com/arnas.puidokas10)
+- [Instagram](https://instagram.com/arnaspdk)
+- [Linkedin](https://www.linkedin.com/in/arnaspuidokas/)
+- [Medium](https://medium.com/@arnaspuidokas)
+- [Twitter](https://twitter.com/arnaspdk)
