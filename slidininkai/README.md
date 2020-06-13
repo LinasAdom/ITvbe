@@ -29,7 +29,11 @@ __Nurodymai__
 - Sukurkite ir parašykite funkciją, kuri surikiuoja rezultatus.
 
 __Duomenų ir rezultatų pavyzdžiai__
+<br>
+<br>
 ![Duomenų ir rezultatų pavyzdys](duomenupavyzdys.png "Duomenų pavyzdys")
 
 __Programos vertinimas__
+<br>
+<br>
 ![Programos vertinimas](vertinimas.png "Programos vertinimas")
