@@ -315,7 +315,7 @@ Tikriname ar moksleivio pateiktas eilučių kiekis sutampa su egzamino užduotie
 
 ### Žingsnis #5
 
-Taip pat patikrinkime ar išvedimo failas yra teisingai išvedamas.
+Taip pat patikrinkime ar išvedimo failas yra naudojamas teisingai. 🧐
 
       @check50.check(pradiniaiFailai)
       def test1():
@@ -344,7 +344,7 @@ Tikriname ar moksleivio pateiktas eilučių kiekis sutampa su egzamino užduotie
 
 ### Žingsnis #6
 
-Patikrinkime ar išvestas atsakymas yra teisingas.
+Patikrinkime ar išvestas atsakymas yra teisingas (sutampa su rezultatais). 💯
 
 Aprašykime sėkmingo scenarijaus rezultatą, ištrinkime duomenų įvedimo failą ir atidarykime rezultatų failą.
 
