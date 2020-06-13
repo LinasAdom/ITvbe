@@ -244,7 +244,7 @@ Jeigu nebus klaidų, išveskime tokį tekstą (kompiliatoriuje matysite tokią �
 
 * * *
 
-### 2.
+### Žingsnis #2
 
 <p> Keliaukime toliau! 🤓 </p>
 Turėkite omeny, jog tai yra kita funkcija! `@check50.check(pradiniaiFailai)` atitinka *F9* CodeBlocks programoje.
@@ -260,7 +260,7 @@ Toliau vėl išveskime žinutę, kurioje aprašysime atsakymą 👌
 
 * * *
 
-### 3.
+### Žingsnis #3
 
 Jeigu iki šiol viskas buvo padaryta sėkmingai, tada patikrinkime ar yra sukurtas duomenų įvedimo failas.
 
@@ -278,7 +278,7 @@ Na, dabar patikrinkime ar išvedimo failas irgi aprašytas gerai. ✔️
 
 * * *
 
-### 4.
+### Žingsnis #4
 
 <p>DĖMESIO  ⚠️ </p>
 
@@ -295,7 +295,7 @@ Pagal eilučių kiekį patikrinkime ar teisingai įvesti duomenys. Nustatome kie
 
          ivestosEilutes = len(open(DUOMENŲ_ĮVEDIMO_FAILAS.txt).readlines())
          
-<p>   ⚡   <br> </p>
+<p>⚡</p>
 
 Įveskite unikalų eilučių skaičių (kiek yra pateikta užduotyje):
 
@@ -313,7 +313,7 @@ Tikriname ar moksleivio pateiktas eilučių kiekis sutampa su egzamino užduotie
 
 * * *
 
-### 5.
+### Žingsnis #5
 
 Taip pat patikrinkime ar išvedimo failas yra teisingai išvedamas.
 
@@ -344,7 +344,7 @@ Tikriname ar moksleivio pateiktas eilučių kiekis sutampa su egzamino užduotie
 
 * * *
 
-### 6.
+### Žingsnis #6
 
 Patikrinkime ar išvestas atsakymas yra teisingas.
 
@@ -393,6 +393,15 @@ Tikriname ar teisingi rezultatai.
 Sukurkite `README.md` failą. Naudodami [Markdown](https://www.markdownguide.org/cheat-sheet/) galite aprašyti užduotį.  
 
 * * *
+
+# Markdown
+
+### Kas yra *Markdown*?
+
+Markdown failai yra tekstiniai tekstiniai failai, kuriuose gali būti teksto teksto simboliai (pvz., Pavadinimai, paryškinti, lentelės). MD failus dažnai naudoja ir versijų valdymo sistemos, pvz., „GitHub“ (pvz., „README.md“).
+
+* * *
+
 ### Kaip naudoti *Markdown*?
 
 1. Susikurti *Markdown* failą naudojant teksto redagavimo aplinką (pvz.: Notepad) arba tam skirtą Markdown programą (pvz.: Markable).
@@ -403,6 +412,7 @@ Sukurkite `README.md` failą. Naudodami [Markdown](https://www.markdownguide.org
    2. [PDF į Markdown](https://pdf2md.morethan.io/)  
 
 * * *
+
 ### Markdown kodas
 
 [Daugiau informacijos](https://www.markdownguide.org/cheat-sheet/)
@@ -456,9 +466,4 @@ Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots 
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
-# Markdown
-
-### Kas yra *Markdown*?
-
-Markdown failai yra tekstiniai tekstiniai failai, kuriuose gali būti teksto teksto simboliai (pvz., Pavadinimai, paryškinti, lentelės). MD failus dažnai naudoja ir versijų valdymo sistemos, pvz., „GitHub“ (pvz., „README.md“).
 
